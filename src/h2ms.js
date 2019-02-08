@@ -31,7 +31,7 @@ function analyse (time) {
 module.exports = function h2ms (time) {
   time = '' + time;
   if (whole.test(time)) {
-    return time.match(pieces).reduce((sum, cur) => { sum + analyse(cur); }, 0);
+    return time.match(pieces).reduce((sum, cur) => { return sum + analyse(cur); }, 0);
   }
 
   return -1;
