@@ -16,7 +16,7 @@ or
 ```
 ttimer <interval> [<interval> ...]
 ```
-Units: ns, us, µ, ms, s, m, h, d, w, M, y
+Units: ns, us, µs, ms, s, m, h, d, w, M, y
 
 ## Example
 ```
