@@ -12,6 +12,12 @@ or
  npm i -g ttimer
 ```
 
+## Usage
+```
+ttimer <interval> [<interval> ...]
+```
+Units: ns, us, µ, ms, s, m, h, d, w, M, y
+
 ## Example
 ```
  ttimer 3m42s
