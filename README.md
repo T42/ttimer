@@ -2,7 +2,7 @@
 
 ## Install
 ```
- git clone https://git.T42.de/T42/ttimer.git
+ git clone https://github.com/T42/ttimer.git
  cd ttimer
  npm i
  npm link
