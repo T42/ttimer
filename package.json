@@ -1,0 +1,23 @@
+{
+  "name": "ttimer",
+  "version": "1.1.0",
+  "description": "teatimer",
+  "main": "src/index.js",
+  "bin": {
+    "ttimer": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node . 2s"
+  },
+  "keywords": [
+    "time",
+    "interval",
+    "tea",
+    "timer"
+  ],
+  "author": "winni@T42.de",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "pretty-ms": "^4.0.0"
+  }
+}
