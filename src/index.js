@@ -15,7 +15,7 @@ if (process.argv.length < 3) { usage(); process.exit(1); }
 init(process.argv.slice(2));
 
 function log () { console.log(jetzt(), ...arguments); }
-function jetzt () { return (new Date().toISOString().slice(0, 19)).replace('T', ' '); }
+function jetzt () { return (new Date(Date.now() - (new Date()).getTimezoneOffset() * 60000)).toISOString().slice(0, 19).replace('T', ' ') ; }
 function usage () { console.log('  usage: %s <interval> [<interval> ...]', myname); }
 
 function init (args) {
